@@ -1454,15 +1454,51 @@ aside.quote .title {
     cursor: default;
 }
 
-// Custom Component CSS
+// Custpm CSS
 
 .user-card.show, .group-card.show, .user-card .card-content, .group-card .card-content {
     left: 9px !important;
 }
 
-// custom CSS
+// Custom CSS
 
-//Custom component CSS
+.post-notice {
+    margin-bottom: 1em;
+    border: none;
+    background: var(--tertiary-low);
+    border-radius: var(--border-radius);
+    margin-left: 0em;
+    box-sizing: border-box;
+    padding: 1em 0.5em;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    max-width: calc(690px + (11px * 2) + 45px - (0.8em * 2));
+    border-radius: 20px;
+}
+
+.post-notice.old {
+    background-color: var(--tertiary-low);
+    color: var(--primary-medium);
+    margin-left: 0em;
+    padding: 1em 0.5em;
+}
+
+blockquote {
+    border-left: 5px solid #2e2e2e;
+    background-color: rgb(18 18 18);
+    clear: both;
+}
+
+aside.quote .title {
+    border-left: 5px solid #2e2e2e;
+    background-color: rgb(18 18 18);
+    color: var(--primary-high-or-secondary-low);
+    padding: 12px 12px 0px 12px;
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: default;
+}
 
 .move-up {
    left: unset;
@@ -1698,3 +1734,30 @@ background-color:#7d7d7d;
     background-color: #2c2c2c;
 }
 
+// New CSS after desktop fix
+
+.user-menu.revamped .quick-access-panel li:hover {
+    background-color: #353535;
+    outline: none;
+}
+.user-menu.revamped .tabs-list .btn.active {
+    background-color: #303030;
+}
+.user-menu.revamped .tabs-list .btn:hover {
+    background-color: #353535;
+}
+.select-kit .select-kit-row.is-selected.is-highlighted {
+    background: #353535 !important;
+}
+.select-kit .select-kit-collection:hover .select-kit-row.is-highlighted:hover {
+    background: #353535 !important;
+}
+.select-kit .select-kit-row.is-selected {
+    background: #303030 !important;
+}
+.is-highlighted {
+     background: #303030 !important;
+    }
+.badge-group-list {
+    margin-left: -14px;
+}
