@@ -1453,3 +1453,9 @@ aside.quote .title {
     user-select: none;
     cursor: default;
 }
+
+// Custom Component CSS
+
+.user-card.show, .group-card.show, .user-card .card-content, .group-card .card-content {
+    left: 9px !important;
+}
