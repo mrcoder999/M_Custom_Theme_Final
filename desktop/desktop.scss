@@ -1653,6 +1653,36 @@ div.login-required {
 	box-shadow: inset 0px 0 0 var(--tertiary);
 }
 
+.post-notice {
+    margin-bottom: 1em;
+    background: var(--tertiary-low);
+    margin-left: 0em;
+    padding: 1em 0.5em;
+}
+
+.post-notice.old {
+    background-color: var(--tertiary-low);
+    color: var(--primary-medium);
+    margin-left: 0em;
+    padding: 1em 0.5em;
+}
+
+blockquote {
+    border-left: 5px solid #2e2e2e;
+    background-color: rgb(18 18 18);
+    clear: both;
+}
+
+aside.quote .title {
+    border-left: 5px solid #2e2e2e;
+    background-color: rgb(18 18 18);
+    color: var(--primary-high-or-secondary-low);
+    padding: 12px 12px 0px 12px;
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: default;
+}
+
 // Custom components css
 
 #main-outlet {
