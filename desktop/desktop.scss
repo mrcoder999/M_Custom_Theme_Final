@@ -1890,3 +1890,9 @@ background-color:#7d7d7d;
 .is-highlighted {
      background: #303030 !important;
     }
+.autocomplete ul li a.selected {
+    background-color: #353535;
+}
+.discourse-no-touch .autocomplete ul li a:hover, .discourse-no-touch .autocomplete ul li a.btn-hover {
+    background-color: #35353580;
+}
