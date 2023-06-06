@@ -1761,3 +1761,6 @@ background-color:#7d7d7d;
 .badge-group-list {
     margin-left: -14px;
 }
+.timeline-container.timeline-fullscreen .topic-timeline .timeline-scrollarea {
+    border-right: 1px solid var(--primary);
+}
